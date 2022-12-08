@@ -1,9 +1,11 @@
-
-
+import './app.css'
+import Counter from './counter';
 function App() {
   return (
     <>
-      <h1>Working</h1>
+    <div className="container">
+        <Counter/>
+    </div>
     </>
   );
 }
